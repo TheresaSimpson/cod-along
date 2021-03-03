@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  font-size: 10px;
+}
+header {
+  /* background-color: cornsilk; */
+  font-size: 1.5rem;
+  height: 90px;
+  padding 0rem 1.5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 60%;
+}
+a {
+  text-decoration: none;
+}
+main{
+    background-color: blue;
+    height: 80vh;
+}
+.feature-img{
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 90px;
+}
